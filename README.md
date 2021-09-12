@@ -44,6 +44,9 @@ X, y = iris.data, iris.target
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(X, y)
 
+```
+Once trained, you can plot the tree with the $plot_tree$ function:
 
-
+``` python
+tree.plot_tree(clf) 
 ```
